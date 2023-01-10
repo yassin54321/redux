@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/8b/2d/46/8b2d4684dd61b59019712a51d5a8dfcb.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.vh-100{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.row-cols-lg-auto{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 30px;
+}
+#Btn_submit {
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: 900;
+  font-Size: 12px;
+  width: 60px;
+  height: 30px;
+  background-color:#a4a5a3;
+  border-radius: 50px;
+  
+}
+#Btn_Get{
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: 900;
+  font-Size: 12px;
+  width: 90px;
+  height: 30px;
+  border-radius: 50px;
+}
+#form1{
+  height: 30px;
+  width: 300px;
+  font-size: 12px;
+}
+section{
+  padding: 100px;
+
+}
+.col{
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mb-4{width:1000px;}
+.ms-1,.ms-2{
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: 900;
+  font-Size: 12px;
+  width: 90px;
+  height: 30px;
+  background-color: blueviolet;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+/*code css*/
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: black;
+}
+
+.music {
+  width: 300px;
+
+  height: 200px;
+
+  position: relative;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.music .bar {
+  width: 12px;
+
+  border-radius: 10px;
+
+  background: white;
+
+  animation: loader 1.5s ease-in-out infinite;
+}
+
+@keyframes loader {
+  0%,
+  100% {
+    height: 2px;
+  }
+
+  50% {
+    height: 80px;
+  }
+}
+
+.music .bar:nth-child(1) {
+  background: purple;
+
+  animation-delay: 1s;
+}
+
+.music .bar:nth-child(2) {
+  background: crimson;
+
+  animation-delay: 0.8s;
+}
+
+.music .bar:nth-child(3) {
+  background: deeppink;
+
+  animation-delay: 0.6s;
+}
+
+.music .bar:nth-child(4) {
+  background: orange;
+
+  animation-delay: 0.4s;
+}
+
+.music .bar:nth-child(5) {
+  background: gold;
+
+  animation-delay: 0.2s;
+}
+
+.music .bar:nth-child(6) {
+  background: gold;
+
+  animation-delay: 0.2s;
+}
+
+.music .bar:nth-child(7) {
+  background: orange;
+
+  animation-delay: 0.4s;
+}
+
+.music .bar:nth-child(8) {
+  background: deeppink;
+
+  animation-delay: 0.6s;
+}
+
+.music .bar:nth-child(9) {
+  background: crimson;
+
+  animation-delay: 0.8s;
+}
+
+.music .bar:nth-child(10) {
+  background: purple;
+
+  animation-delay: 1s;
+}
+
